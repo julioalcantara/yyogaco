@@ -1,0 +1,46 @@
+
+.main-text {
+    margin-top: 50px;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+}
+.span-text {
+    text-align: center;
+    font-size: 22px;  
+    margin-top: -25px;
+    margin-bottom: 20px;
+    font-family: 'Kalam', cursive;
+}
+
+.top-image {
+    max-width: 1300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.price {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 40px;
+    font-family: 'Kalam', cursive;
+}
+#book-now {
+    width: 150px;
+    font-size: 20px;
+    border: none;
+    background-color:#64a8be;
+    color: cornsilk;
+    font-family: 'Kalam', cursive;
+}
+#book-now:hover{
+    background-color:#2a6b81;
+}
+#book-now:visited {
+    text-decoration: none;
+}
+
+  footer{
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+  }
