@@ -1,46 +1,126 @@
 
+body {
+    font-family: 'Kalam', cursive;
+}
 .main-text {
     margin-top: 50px;
     font-size: 100px;
     text-align: center;
-    font-family: 'Kalam', cursive;
 }
 .span-text {
     text-align: center;
     font-size: 22px;  
     margin-top: -25px;
     margin-bottom: 20px;
-    font-family: 'Kalam', cursive;
 }
-
 .top-image {
-    max-width: 1300px;
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+.horizontal-break{
+    border: none;
+}
+.footer-container {
+    font-size: 20px;
+}
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.grid-colums-price {
+    margin-left: auto;
+}
+.grid-colums-contact {
+    margin-right: 120px;
+}
+
+.footer-title {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
 .price {
     font-size: 40px;
     font-weight: bold;
+    margin-top: 15px;
     margin-left: 40px;
-    font-family: 'Kalam', cursive;
+    margin-bottom: 15px;
 }
-#book-now {
-    width: 150px;
+.book-now {
     font-size: 20px;
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;
     border: none;
     background-color:#64a8be;
-    color: cornsilk;
-    font-family: 'Kalam', cursive;
+    color: white;
 }
-#book-now:hover{
+.book-now:hover{
     background-color:#2a6b81;
 }
-#book-now:visited {
+.book-now:visited {
     text-decoration: none;
 }
+.hyperlinks {
+    color: black;
+}
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.list-inline-item{
+    display: inline;
+    margin-right: 25px;
+}
 
-  footer{
-    font-size: 18px;
-    font-family: 'Kalam', cursive;
-  }
+
+
+@media only screen and (max-width: 700px) {
+    body{
+        width: 640px;
+    }
+    .main-text {
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+    .span-text {
+        font-size: 35px;  
+    }
+    .top-image {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-links{
+        display: block;
+        text-align: center;
+        font-size: 40px;
+    }
+    .footer-title {
+        font-size: 50px;
+        margin-top:10px;
+    }
+    .price {
+        font-size: 70px;
+        margin-left: 0;
+    }
+    .book-now {
+        font-size: 50px;
+    }
+    .grid-colums-contact {
+        margin-right: 0px;
+    }
+
+    .grid-row {
+        font-size: 25px;
+    }
+}
